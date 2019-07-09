@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.menu {
+  align-self: flex-start;
+}
+
+
+.orange {
+  color: #ef4136;
+  position: relative;
+  animation: move 4s ease-out 3;
+}
+
+@keyframes move {
+
+  0% {
+    left: 0px;
+  }
+
+  20% {
+    left: -100px;
+  }
+
+  25% {
+    left: -50px;
+  }
+
+  35% {
+    left: -100px;
+  }
+
+  40% {
+    left: -50px;
+  }
+
+  50% {
+    left: -100px;
+  }
+
+  70% {
+    left: -100px;
+  }
+
+  90% {
+    left: 0px;
+  }
+
+  100% {
+    left: 0px;
+  }
+
+}

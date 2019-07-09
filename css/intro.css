@@ -1,0 +1,17 @@
+div {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 95%;
+}
+
+.scum {
+  flex: auto;
+}
+
+.my-may {
+  height: 50vw;
+}

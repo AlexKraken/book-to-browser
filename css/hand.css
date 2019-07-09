@@ -1,0 +1,14 @@
+.hand {
+  position: relative;
+  height: 50vh;
+}
+
+img {
+  height: 95%;
+}
+
+.hand pre {
+  display: inline-flex;
+  position: absolute;
+  top: 90%;
+}

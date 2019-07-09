@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 90vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 30vw;
+}
+/*
+#march {
+  height: 60px;
+}
+
+#our-march {
+  height: 50px;
+}
+
+#my-may {
+  height: 50px;
+}
+
+#scum {
+  height: 68px;
+}
+
+#international {
+  height: 30px;
+}
+
+#arts-army {
+  height: 50px;
+}
+
+*/

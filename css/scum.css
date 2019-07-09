@@ -1,0 +1,47 @@
+body {
+  cursor: url('../../images/hand2.png') 120 88, crosshair;
+}
+
+a:hover {
+  cursor: url('../images/hand2.png') 120 88, crosshair;
+}
+
+pre {
+  cursor: url('../images/hand2.png') 120 88, crosshair;
+}
+
+.page2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*.page2 img {
+  height: 95vh;
+  position: fixed;
+  right: 0;
+}*/
+
+.scum-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu {
+  display: flex;
+  height: 95vh;
+  position: fixed;
+  right: 0;
+}
+
+.button {
+  width: 50px;
+}
+
+.buttons {
+  flex-direction: column;
+  width: 18vh;
+}
+
+.skulls {
+  width: 72vh;
+}

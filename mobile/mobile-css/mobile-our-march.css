@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 85vh;
+  width: 95vw;
+  overflow: hidden;
+  position: fixed;
+}
+
+pre {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  height: 20vh;
+}
+
+.footer {
+  height: 20vh;
+}
+
+.text {
+  height: 40vh;
+  overflow: scroll;
+  background: #ef4136;
+}
+
+.march {
+  animation: march .5s linear infinite alternate;
+}
+
+@keyframes march {
+
+  0% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(-10deg);
+  }
+
+}

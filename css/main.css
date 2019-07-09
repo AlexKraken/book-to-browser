@@ -1,0 +1,34 @@
+* {
+  box-sizing: inherit;
+}
+
+html, body {
+  box-sizing: border-box;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    background: #ee7c35;
+  }
+
+  header {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
+
+  .mobile img {
+    width: 48vw;
+  }
+
+  .mobile div {
+    width: 52vw;
+  }
+}

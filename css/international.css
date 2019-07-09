@@ -1,0 +1,9 @@
+body {
+  display: flex;
+}
+
+img {
+  height: 95vh;
+  position: fixed;
+  right: 0px;
+}
